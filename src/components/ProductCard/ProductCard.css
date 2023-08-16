@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 400px;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px var(--color-categoria);
+}
+
+.contenedor .detalle {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    border: 2px solid var(--color-pricipal);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+span {
+    color: var(--color-categoria);
+    font-weight: 700;
+}
+

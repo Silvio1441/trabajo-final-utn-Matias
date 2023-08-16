@@ -1,0 +1,14 @@
+.btn-signo {
+    background: var(--color-pricipal);
+    width: 40px;
+    height: 25px;
+    margin: 5px 10px;
+}
+
+.btn-conf {
+    width: 200px;
+}
+
+.cant {
+    font-family: "roboto";
+}

@@ -1,0 +1,46 @@
+
+.formularioUsuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vh;
+    gap: 2vh;
+    margin: 0 auto;
+    margin-top: 20vh;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo-contacto {
+    margin-top: 40px;
+}
+
+.formularioUsuario button {
+    width: 50%;
+    height: 30px;
+    color: white;
+    margin-top: 10px;
+    background: rgb(121, 99, 241);
+    border: 1px solid rgb(121, 99, 241);
+    border-radius: 10px;
+    color: white;
+}
+
+.formularioUsuario button:hover {
+    background: none;
+    color: rgb(121, 99, 241);
+}
+
+.formularioUsuario label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.formularioUsuario input {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-top: 10px;
+}
